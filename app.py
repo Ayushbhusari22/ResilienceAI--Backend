@@ -15,7 +15,7 @@ app = Flask(__name__)
 # Configure CORS for both frontend URLs
 CORS(app, origins=["https://ayushbhusari.netlify.app",
                    "https://wondrous-salmiakki-4bbd0a.netlify.app",
-                   "https://graceful-meerkat-f11733.netlify.app"])
+                   "https://fluffy-stroopwafel-df171a.netlify.app"])
 
 # ====================== Flood Prediction Model ======================
 
