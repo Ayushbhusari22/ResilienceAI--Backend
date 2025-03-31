@@ -1,8 +1,11 @@
+geopy
 Flask
 flask-cors
+requests
 joblib
 pandas
 numpy
-requests
-geopy
-
+matplotlib
+seaborn
+scikit-learn
+xgboost
