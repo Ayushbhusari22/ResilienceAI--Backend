@@ -13,7 +13,7 @@ import random
 app = Flask(__name__)
 
 # Configure CORS for both frontend URLs
-CORS(app, origins=["https://ayushbhusari.netlify.app","https://wondrous-salmiakki-4bbd0a.netlify.app","https://lucky-pie-1ee6d4.netlify.app"])
+CORS(app, origins=["https://ayushbhusari.netlify.app","https://wondrous-salmiakki-4bbd0a.netlify.app","https://graceful-meerkat-f11733.netlify.app/"])
 
 # ====================== Flood Prediction Model ======================
 
@@ -385,7 +385,7 @@ class HeatwavePredictionService:
 # Initialize heatwave prediction service
 heatwave_service = HeatwavePredictionService()
 
-@app.route('/heatwave/predict', methods=['POST'])
+@app.route('/heatwave', methods=['POST'])
 def heatwave_predict():
     try:
         data = request.get_json()
@@ -404,7 +404,7 @@ def heatwave_predict():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route('/heatwave/historical', methods=['GET'])
+@app.route('/api/historical', methods=['GET'])
 def get_heatwave_historical_data():
     try:
         city = request.args.get('city')
