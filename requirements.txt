@@ -1,0 +1,8 @@
+Flask
+flask-cors
+joblib
+pandas
+numpy
+requests
+geopy
+pickle
