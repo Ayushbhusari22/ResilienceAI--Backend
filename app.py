@@ -13,7 +13,7 @@ import random
 app = Flask(__name__)
 
 # Configure CORS for both frontend URLs
-CORS(app, origins=["https://wondrous-salmiakki-4bbd0a.netlify.app", "https://papaya-figolla-701023.netlify.app"])
+CORS(app, origins=["https://wondrous-salmiakki-4bbd0a.netlify.app", "https://bucolic-elf-6aa347.netlify.app"])
 
 # ====================== Flood Prediction Model ======================
 
