@@ -15,7 +15,9 @@ app = Flask(__name__)
 # Configure CORS for both frontend URLs
 CORS(app, origins=["https://ayushbhusari.netlify.app",
                    "https://wondrous-salmiakki-4bbd0a.netlify.app",
-                   "https://magnificent-belekoy-861624.netlify.app"])
+                   "https://magnificent-belekoy-861624.netlify.app",
+                   "https://mellifluous-cajeta-526c46.netlify.app"])
+# CORS(app)
 
 # ====================== Flood Prediction Model ======================
 
@@ -433,4 +435,4 @@ def home():
 if __name__ == "__main__":
     # Ensure model_files directory exists for heatwave model
     os.makedirs('model_files', exist_ok=True)
-    app.run(host='0.0.0.0', port=10000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
