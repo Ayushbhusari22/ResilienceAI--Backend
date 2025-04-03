@@ -16,7 +16,7 @@ app = Flask(__name__)
 CORS(app, origins=["https://ayushbhusari.netlify.app",
                    "https://wondrous-salmiakki-4bbd0a.netlify.app",
                    "https://magnificent-belekoy-861624.netlify.app",
-                   "https://resilienceai.netlify.app/"])
+                   "https://resilienceai.netlify.app"])
 # CORS(app)
 
 # ====================== Flood Prediction Model ======================
