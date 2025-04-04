@@ -347,7 +347,7 @@ class HeatwavePredictionService:
                             "daily": self.features,
                             "timezone": "auto"
                         },
-                        timeout=50
+                        timeout=15
                     )
                     response.raise_for_status()
                     data = response.json()
