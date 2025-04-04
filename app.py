@@ -398,15 +398,27 @@ def heatwave_predict():
         
         city = data['city']
         forecast = heatwave_service.predict_heatwave(city)
+
+        city = data['city']
+        forecast = heatwave_service.predict_heatwave(city)
+        
+        # Get coordinates for the city
+        try:
+            lat, lon = heatwave_service.get_coordinates(city)
+        except Exception as e:
+            lat, lon = 0, 0  # Fallback coordinate
         
         return jsonify({
             "city": city,
+            "latitude": lat,
+            "longitude": lon,
             "predictions": forecast.to_dict('records'),
             "message": "Forecast generated successfully",
             "status": "success"
         })
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
 
 @app.route('/api/historical', methods=['GET'])
 def get_heatwave_historical_data():
