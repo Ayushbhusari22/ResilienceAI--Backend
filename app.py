@@ -419,6 +419,7 @@ def heatwave_predict():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+
 @app.route('/api/historical', methods=['GET'])
 def get_heatwave_historical_data():
     try:
