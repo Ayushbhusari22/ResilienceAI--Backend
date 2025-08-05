@@ -13,11 +13,11 @@ import random
 app = Flask(__name__)
 
 # Configure CORS for both frontend URLs
-CORS(app, origins=["https://ayushbhusari.netlify.app",
-                   "https://wondrous-salmiakki-4bbd0a.netlify.app",
-                   "https://magnificent-belekoy-861624.netlify.app",
-                   "https://resilienceai.netlify.app"])
-# CORS(app)
+# CORS(app, origins=["https://ayushbhusari.netlify.app",
+#                    "https://wondrous-salmiakki-4bbd0a.netlify.app",
+#                    "https://magnificent-belekoy-861624.netlify.app",
+#                    "https://resilienceai.netlify.app"])
+CORS(app)
 
 # ====================== Flood Prediction Model ======================
 
@@ -347,7 +347,7 @@ class HeatwavePredictionService:
                             "daily": self.features,
                             "timezone": "auto"
                         },
-                        timeout=50
+                        timeout=15
                     )
                     response.raise_for_status()
                     data = response.json()
@@ -398,9 +398,20 @@ def heatwave_predict():
         
         city = data['city']
         forecast = heatwave_service.predict_heatwave(city)
+
+        city = data['city']
+        forecast = heatwave_service.predict_heatwave(city)
+        
+        # Get coordinates for the city
+        try:
+            lat, lon = heatwave_service.get_coordinates(city)
+        except Exception as e:
+            lat, lon = 0, 0  # Fallback coordinate
         
         return jsonify({
             "city": city,
+            "latitude": lat,
+            "longitude": lon,
             "predictions": forecast.to_dict('records'),
             "message": "Forecast generated successfully",
             "status": "success"
@@ -435,4 +446,4 @@ def home():
 if __name__ == "__main__":
     # Ensure model_files directory exists for heatwave model
     os.makedirs('model_files', exist_ok=True)
-    app.run(host='0.0.0.0', port=10000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)

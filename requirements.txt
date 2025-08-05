@@ -1,11 +1,12 @@
-geopy
-Flask
-flask-cors
-requests
-joblib
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-xgboost
+Flask==2.3.2
+Flask-Cors==3.0.10
+requests==2.31.0
+pandas==2.0.3
+numpy==1.24.3
+python-dotenv==1.0.0
+rich==13.4.2
+
+# Additional libraries your app.py needs:
+joblib==1.3.2
+geopy==2.3.0
+scikit-learn==1.3.0

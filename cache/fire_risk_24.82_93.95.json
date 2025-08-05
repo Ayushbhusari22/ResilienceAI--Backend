@@ -1,0 +1,1 @@
+{"data": {"risk_level": "high", "risk_score": 70, "risk_factors": {"temperature": 32.3, "humidity": 16, "wind_speed": 3.194444444444444, "precipitation": 0.0}, "timestamp": "2025-04-04T10:51:02.013129", "source": "calculated"}, "timestamp": 1743744062.0131297}

@@ -1,0 +1,147 @@
+2025-04-04 03:26:31,043 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.57.206:5000
+2025-04-04 03:26:31,043 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 03:26:31,046 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 03:26:31,801 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 03:26:31,806 - werkzeug - INFO -  * Debugger PIN: 109-715-643
+2025-04-04 03:26:58,291 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:26:58] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:26:58,361 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:26:58] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:31:26,681 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:31:26] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:31:33,413 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:31:33] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:31:37,675 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:31:37] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:31:44,372 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:31:44] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:31:55,657 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:31:55] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:31:55,920 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:31:55] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:32:05,797 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:32:05] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:32:06,150 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:32:06] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:32:11,388 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:32:11] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:32:17,750 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:32:17] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:32:35,407 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:32:35] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:32:50,723 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:32:50] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:32:54,540 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:32:54] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:32:54,859 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:32:54] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:33:00,920 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:33:00] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:33:08,412 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:33:08] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:35:13,303 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:35:13] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:35:13,615 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:35:13] "GET /api/disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 03:36:12,244 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:36:12] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 03:36:12,514 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:36:12] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 03:36:23,322 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:36:23] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 03:54:24,005 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:54:24] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 03:54:24,103 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:54:24] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 03:54:49,511 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:54:49] "GET /api/disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-04-04 03:54:49,652 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:54:49] "GET /api/disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-04-04 03:59:48,321 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 03:59:48] "GET /api/disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-04-04 04:04:49,018 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:04:49] "GET /api/disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-04-04 04:07:44,674 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:07:44] "GET /api/disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-04-04 04:07:44,721 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:07:44] "GET /api/disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-04-04 04:07:50,715 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:07:50] "GET /api/disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-04-04 04:07:50,984 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:07:50] "GET /api/disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-04-04 04:08:01,534 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:08:01] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 04:08:01,593 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:08:01] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 04:13:02,312 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:13:02] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 04:18:02,848 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:18:02] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 04:20:17,282 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:20:17] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 04:20:17,498 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:20:17] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 04:25:04,304 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:25:04] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 04:25:04,331 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:25:04] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 04:36:33,900 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.57.206:5000
+2025-04-04 04:36:33,901 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 04:36:33,905 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 04:36:34,909 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 04:36:34,914 - werkzeug - INFO -  * Debugger PIN: 109-715-643
+2025-04-04 04:36:48,487 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:36:48] "GET /api/disaster-monitor/Coimbatore HTTP/1.1" 200 -
+2025-04-04 04:36:48,807 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:36:48] "GET /api/disaster-monitor/Coimbatore HTTP/1.1" 200 -
+2025-04-04 04:49:21,872 - __main__ - ERROR - Error fetching weather data from WeatherAPI: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/forecast.json?key=24dda02be42748e1a93142205250304&q=10.99,76.96&days=1&aqi=no&alerts=no (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000021B6689D5D0>: Failed to resolve 'api.weatherapi.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-04 04:49:21,882 - __main__ - ERROR - Error fetching weather data from Open-Meteo: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=10.99&longitude=76.96&current=temperature_2m,relative_humidity_2m,precipitation,rain,pressure_msl,wind_speed_10m&hourly=temperature_2m,relative_humidity_2m,precipitation_probability,precipitation,rain,pressure_msl,wind_speed_10m&timezone=auto (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021B6689D610>: Failed to resolve 'api.open-meteo.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-04 04:49:21,931 - __main__ - ERROR - Error fetching weather data from WeatherAPI: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/forecast.json?key=24dda02be42748e1a93142205250304&q=10.99,76.96&days=1&aqi=no&alerts=no (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000021B668F5CD0>: Failed to resolve 'api.weatherapi.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-04 04:49:22,042 - __main__ - ERROR - Error fetching weather data from Open-Meteo: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=10.99&longitude=76.96&current=temperature_2m,relative_humidity_2m,precipitation,rain,pressure_msl,wind_speed_10m&hourly=temperature_2m,relative_humidity_2m,precipitation_probability,precipitation,rain,pressure_msl,wind_speed_10m&timezone=auto (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021B668F7990>: Failed to resolve 'api.open-meteo.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-04 04:49:22,066 - __main__ - ERROR - Error fetching wildfire data: HTTPSConnectionPool(host='api.ambeedata.com', port=443): Max retries exceeded with url: /fire/latest/by-lat-lng?lat=10.99&lng=76.96 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021B668F7410>: Failed to resolve 'api.ambeedata.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-04 04:49:22,106 - __main__ - ERROR - Error getting fire risk data: HTTPSConnectionPool(host='api.ambeedata.com', port=443): Max retries exceeded with url: /fire/risk/by-lat-lng?lat=10.99&lng=76.96 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021B668F6190>: Failed to resolve 'api.ambeedata.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-04 04:49:22,116 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:49:22] "[31m[1mGET /api/disaster-monitor/Coimbatore HTTP/1.1[0m" 400 -
+2025-04-04 04:49:22,149 - __main__ - ERROR - Error fetching weather data from WeatherAPI: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/forecast.json?key=24dda02be42748e1a93142205250304&q=10.99,76.96&days=1&aqi=no&alerts=no (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000021B6689C790>: Failed to resolve 'api.weatherapi.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-04 04:49:22,182 - __main__ - ERROR - Error fetching weather data from Open-Meteo: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=10.99&longitude=76.96&current=temperature_2m,relative_humidity_2m,precipitation,rain,pressure_msl,wind_speed_10m&hourly=temperature_2m,relative_humidity_2m,precipitation_probability,precipitation,rain,pressure_msl,wind_speed_10m&timezone=auto (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021B668BA690>: Failed to resolve 'api.open-meteo.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-04 04:49:22,234 - __main__ - ERROR - Error fetching weather data from WeatherAPI: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/forecast.json?key=24dda02be42748e1a93142205250304&q=10.99,76.96&days=1&aqi=no&alerts=no (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000021B66DB6290>: Failed to resolve 'api.weatherapi.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-04 04:49:22,277 - __main__ - ERROR - Error fetching weather data from Open-Meteo: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=10.99&longitude=76.96&current=temperature_2m,relative_humidity_2m,precipitation,rain,pressure_msl,wind_speed_10m&hourly=temperature_2m,relative_humidity_2m,precipitation_probability,precipitation,rain,pressure_msl,wind_speed_10m&timezone=auto (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021B668BAD90>: Failed to resolve 'api.open-meteo.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-04 04:49:22,286 - __main__ - ERROR - Error fetching wildfire data: HTTPSConnectionPool(host='api.ambeedata.com', port=443): Max retries exceeded with url: /fire/latest/by-lat-lng?lat=10.99&lng=76.96 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021B6689E010>: Failed to resolve 'api.ambeedata.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-04 04:49:22,313 - __main__ - ERROR - Error getting fire risk data: HTTPSConnectionPool(host='api.ambeedata.com', port=443): Max retries exceeded with url: /fire/risk/by-lat-lng?lat=10.99&lng=76.96 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021B6689ED50>: Failed to resolve 'api.ambeedata.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-04 04:49:22,314 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:49:22] "[31m[1mGET /api/disaster-monitor/Coimbatore HTTP/1.1[0m" 400 -
+2025-04-04 04:50:28,410 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:50:28] "GET /api/disaster-monitor/Coimbatore HTTP/1.1" 200 -
+2025-04-04 04:50:28,479 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:50:28] "GET /api/disaster-monitor/Coimbatore HTTP/1.1" 200 -
+2025-04-04 04:52:43,056 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:52:43] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 04:52:43,138 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:52:43] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 04:55:47,071 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:55:47] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 04:55:47,338 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:55:47] "GET /api/disaster-monitor/pune HTTP/1.1" 200 -
+2025-04-04 04:57:41,245 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:57:41] "GET /api/disaster-monitor/Imphal HTTP/1.1" 200 -
+2025-04-04 04:57:41,347 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 04:57:41] "GET /api/disaster-monitor/Imphal HTTP/1.1" 200 -
+2025-04-04 05:02:15,799 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 05:02:15] "GET /api/disaster-monitor/guwahati HTTP/1.1" 200 -
+2025-04-04 05:02:15,895 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 05:02:15] "GET /api/disaster-monitor/guwahati HTTP/1.1" 200 -
+2025-04-04 09:19:46,709 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.57.206:5000
+2025-04-04 09:19:46,710 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 09:19:46,713 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 09:19:47,502 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 09:19:47,506 - werkzeug - INFO -  * Debugger PIN: 109-715-643
+2025-04-04 09:19:57,979 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:19:57] "GET /api/disaster-monitor/mumbai HTTP/1.1" 200 -
+2025-04-04 09:19:58,075 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:19:58] "GET /api/disaster-monitor/mumbai HTTP/1.1" 200 -
+2025-04-04 09:21:13,712 - werkzeug - INFO -  * Detected change in 'A:\\Storage\\Downloads\\DisasterAI-main\\Dash\\ResilienceAI\\backend\\disaster-monitor.py', reloading
+2025-04-04 09:21:13,783 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 09:21:14,551 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 09:21:14,556 - werkzeug - INFO -  * Debugger PIN: 109-715-643
+2025-04-04 09:21:19,816 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.57.206:5000
+2025-04-04 09:21:19,817 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 09:21:19,820 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 09:21:20,667 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 09:21:20,672 - werkzeug - INFO -  * Debugger PIN: 109-715-643
+2025-04-04 09:21:41,254 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:21:41] "GET /disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 09:21:41,318 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 09:21:41] "GET /disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 09:22:30,021 - werkzeug - INFO -  * Detected change in 'A:\\Storage\\Downloads\\DisasterAI-main\\Dash\\ResilienceAI\\backend\\app.py', reloading
+2025-04-04 09:22:30,094 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 09:22:30,894 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 09:22:30,899 - werkzeug - INFO -  * Debugger PIN: 109-715-643
+2025-04-04 10:43:20,208 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.57.206:5000
+2025-04-04 10:43:20,209 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 10:43:20,212 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 10:43:21,139 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 10:43:21,167 - werkzeug - INFO -  * Debugger PIN: 109-715-643
+2025-04-04 10:44:12,747 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 10:44:12] "GET /disaster-monitor/Coimbatore HTTP/1.1" 200 -
+2025-04-04 10:44:12,858 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 10:44:12] "GET /disaster-monitor/Coimbatore HTTP/1.1" 200 -
+2025-04-04 10:48:09,755 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 10:48:09] "GET /disaster-monitor/Coimbatore HTTP/1.1" 200 -
+2025-04-04 10:48:10,020 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 10:48:10] "GET /disaster-monitor/Coimbatore HTTP/1.1" 200 -
+2025-04-04 10:50:09,922 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 10:50:09] "GET /disaster-monitor/Mumbai HTTP/1.1" 200 -
+2025-04-04 10:50:10,006 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 10:50:10] "GET /disaster-monitor/Mumbai HTTP/1.1" 200 -
+2025-04-04 10:51:02,017 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 10:51:02] "GET /disaster-monitor/Imphal HTTP/1.1" 200 -
+2025-04-04 10:51:02,137 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 10:51:02] "GET /disaster-monitor/Imphal HTTP/1.1" 200 -
+2025-04-04 10:52:21,891 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 10:52:21] "GET /disaster-monitor/Coimbatore HTTP/1.1" 200 -
+2025-04-04 10:52:21,930 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 10:52:21] "GET /disaster-monitor/Coimbatore HTTP/1.1" 200 -
+2025-04-04 10:52:45,253 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 10:52:45] "GET /disaster-monitor/Ooty HTTP/1.1" 200 -
+2025-04-04 10:52:45,368 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 10:52:45] "GET /disaster-monitor/Ooty HTTP/1.1" 200 -
+2025-04-04 10:53:34,903 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 10:53:34] "GET /disaster-monitor/Guwahati HTTP/1.1" 200 -
+2025-04-04 10:53:34,971 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 10:53:34] "GET /disaster-monitor/Guwahati HTTP/1.1" 200 -
+2025-04-04 13:06:52,162 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.57.206:5000
+2025-04-04 13:06:52,165 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 13:06:52,173 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 13:06:53,888 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 13:06:53,900 - werkzeug - INFO -  * Debugger PIN: 109-715-643
+2025-04-04 13:07:08,936 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:07:08] "GET /disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 13:07:09,036 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:07:09] "GET /disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 13:07:52,657 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:07:52] "GET /disaster-monitor/Coimbatore HTTP/1.1" 200 -
+2025-04-04 13:07:52,761 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:07:52] "GET /disaster-monitor/Coimbatore HTTP/1.1" 200 -
+2025-04-04 13:35:31,374 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:35:31] "GET /disaster-monitor/Pune HTTP/1.1" 200 -
+2025-04-04 13:35:31,435 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:35:31] "GET /disaster-monitor/Pune HTTP/1.1" 200 -
