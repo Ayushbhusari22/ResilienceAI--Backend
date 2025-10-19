@@ -145,3 +145,489 @@
 2025-04-04 13:07:52,761 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:07:52] "GET /disaster-monitor/Coimbatore HTTP/1.1" 200 -
 2025-04-04 13:35:31,374 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:35:31] "GET /disaster-monitor/Pune HTTP/1.1" 200 -
 2025-04-04 13:35:31,435 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 13:35:31] "GET /disaster-monitor/Pune HTTP/1.1" 200 -
+2025-10-16 03:17:32,583 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.42.198.232:5000
+2025-10-16 03:17:32,585 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-16 03:17:32,603 - werkzeug - INFO -  * Restarting with stat
+2025-10-16 03:17:33,500 - werkzeug - WARNING -  * Debugger is active!
+2025-10-16 03:17:33,521 - werkzeug - INFO -  * Debugger PIN: 138-299-556
+2025-10-16 03:18:10,173 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:18:10] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-16 03:18:10,405 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:18:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-16 03:18:22,223 - werkzeug - INFO - 10.42.198.232 - - [16/Oct/2025 03:18:22] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-16 03:18:22,406 - werkzeug - INFO - 10.42.198.232 - - [16/Oct/2025 03:18:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-16 03:18:35,487 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-16 03:18:35,731 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-16 03:18:35,911 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:18:35] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-16 03:18:36,717 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:18:36] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-16 03:18:36,740 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-16 03:18:36,776 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:18:36] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-16 03:18:37,474 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-16 03:18:37,477 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:18:37] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-16 03:18:37,998 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-16 03:18:38,001 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:18:38] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-16 03:19:33,835 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=39.74&lng=-104.98
+2025-10-16 03:19:33,987 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=39.74&lng=-104.98
+2025-10-16 03:19:34,036 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:19:34] "GET /disaster-monitor/Denver HTTP/1.1" 200 -
+2025-10-16 03:19:34,188 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:19:34] "GET /disaster-monitor/Denver HTTP/1.1" 200 -
+2025-10-16 03:19:35,349 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=39.74&lng=-104.98
+2025-10-16 03:19:35,371 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:19:35] "GET /disaster-monitor/Denver HTTP/1.1" 200 -
+2025-10-16 03:19:35,576 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=39.74&lng=-104.98
+2025-10-16 03:19:35,581 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:19:35] "GET /disaster-monitor/Denver HTTP/1.1" 200 -
+2025-10-16 03:20:46,063 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-16 03:20:46,128 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-16 03:20:46,269 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:20:46] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-16 03:20:46,351 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:20:46] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-16 03:20:47,028 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-16 03:20:47,054 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:20:47] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-16 03:20:47,564 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-16 03:20:47,584 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:20:47] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-16 03:25:20,032 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=30.05&lng=31.25
+2025-10-16 03:25:20,150 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=30.05&lng=31.25
+2025-10-16 03:25:20,213 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:25:20] "GET /disaster-monitor/CA HTTP/1.1" 200 -
+2025-10-16 03:25:20,351 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:25:20] "GET /disaster-monitor/CA HTTP/1.1" 200 -
+2025-10-16 03:25:21,197 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=30.05&lng=31.25
+2025-10-16 03:25:21,226 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:25:21] "GET /disaster-monitor/CA HTTP/1.1" 200 -
+2025-10-16 03:25:21,456 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=30.05&lng=31.25
+2025-10-16 03:25:21,461 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:25:21] "GET /disaster-monitor/CA HTTP/1.1" 200 -
+2025-10-16 03:25:52,446 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=-33.45&lng=-70.67
+2025-10-16 03:25:52,646 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:25:52] "GET /disaster-monitor/Chile HTTP/1.1" 200 -
+2025-10-16 03:25:52,841 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=-33.45&lng=-70.67
+2025-10-16 03:25:52,860 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:25:52] "GET /disaster-monitor/Chile HTTP/1.1" 200 -
+2025-10-16 03:25:53,309 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=-33.45&lng=-70.67
+2025-10-16 03:25:53,312 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:25:53] "GET /disaster-monitor/Chile HTTP/1.1" 200 -
+2025-10-16 03:25:53,689 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=-33.45&lng=-70.67
+2025-10-16 03:25:53,691 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:25:53] "GET /disaster-monitor/Chile HTTP/1.1" 200 -
+2025-10-16 03:25:54,061 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=-33.45&lng=-70.67
+2025-10-16 03:25:54,063 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:25:54] "GET /disaster-monitor/Chile HTTP/1.1" 200 -
+2025-10-16 03:25:54,824 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=-33.45&lng=-70.67
+2025-10-16 03:25:54,827 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:25:54] "GET /disaster-monitor/Chile HTTP/1.1" 200 -
+2025-10-16 03:25:55,356 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=-33.45&lng=-70.67
+2025-10-16 03:25:55,362 - werkzeug - INFO - 127.0.0.1 - - [16/Oct/2025 03:25:55] "GET /disaster-monitor/Chile HTTP/1.1" 200 -
+2025-10-17 04:37:52,200 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.148.194.252:5000
+2025-10-17 04:37:52,202 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-17 04:37:52,217 - werkzeug - INFO -  * Restarting with stat
+2025-10-17 04:37:53,397 - werkzeug - WARNING -  * Debugger is active!
+2025-10-17 04:37:53,422 - werkzeug - INFO -  * Debugger PIN: 138-299-556
+2025-10-17 04:38:05,081 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-17 04:38:05,298 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-17 04:38:05,466 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:38:05] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-17 04:38:05,791 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:38:05] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-17 04:38:06,804 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-17 04:38:06,933 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:38:06] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-17 04:38:07,832 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-17 04:38:07,835 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:38:07] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-17 04:38:08,167 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-17 04:38:08,169 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:38:08] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-17 04:40:14,379 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-17 04:40:14,381 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:40:14] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-17 04:40:14,673 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-17 04:40:14,675 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:40:14] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-17 04:40:32,272 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-17 04:40:32,279 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:40:32] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-17 04:40:32,724 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-17 04:40:32,727 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:40:32] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-17 04:41:04,269 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:41:04,599 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:41:04] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:41:06,515 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:41:06,553 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:41:06] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:41:07,154 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:41:07,157 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:41:07] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:41:55,837 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:41:55,842 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:41:55] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:41:58,263 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:41:58,266 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:41:58] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:41:58,620 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:41:58,628 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:41:58] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:42:01,388 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:42:01,390 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:42:01] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:42:01,712 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:42:01,714 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:42:01] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:42:21,281 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:42:21,284 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:42:21] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:42:21,553 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:42:21,556 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:42:21] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:42:28,131 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:42:28,172 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:42:28] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:42:28,503 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:42:28,505 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:42:28] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:43:52,358 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:43:52,360 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:43:52] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:43:52,631 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:43:52,633 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:43:52] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:43:55,168 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:43:55,182 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:43:55] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:43:55,832 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:43:55,834 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:43:55] "GET /disaster-monitor/pune HTTP/1.1" 200 -
+2025-10-17 04:44:39,881 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:44:40,195 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:44:40] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:44:41,839 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:44:41,875 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:44:41] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:44:42,526 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:44:42,530 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:44:42] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:45:24,873 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:45:24,877 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:45:24] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:45:25,713 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:45:25,728 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:45:25] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:47:36,833 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:47:36,841 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:47:36] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:47:37,426 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:47:37,428 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:47:37] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:47:50,488 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:47:50,491 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:47:50] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:47:51,407 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:47:51,412 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:47:51] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:48:06,041 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:48:06,052 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:48:06] "GET /disaster-monitor/Pune HTTP/1.1" 200 -
+2025-10-17 04:48:07,078 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:48:07,086 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:48:07] "GET /disaster-monitor/Pune HTTP/1.1" 200 -
+2025-10-17 04:48:07,771 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 04:48:07,777 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:48:07] "GET /disaster-monitor/Pune HTTP/1.1" 200 -
+2025-10-17 04:48:27,692 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:48:27,694 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:48:27] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:48:28,339 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:48:28,347 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:48:28] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:49:28,185 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:49:28,189 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:49:28] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:49:30,739 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:49:30,740 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:49:30] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:49:31,114 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:49:31,117 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:49:31] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:49:33,276 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:49:33,279 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:49:33] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:49:33,535 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:49:33,538 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:49:33] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:52:32,644 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:52:32,649 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:52:32] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:52:33,928 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:52:33,931 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:52:33] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:52:34,199 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:52:34,201 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:52:34] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:52:42,701 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:52:42,705 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:52:42] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:52:42,972 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:52:42,989 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:52:42] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:52:59,213 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:52:59,218 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:52:59] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:52:59,631 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:52:59,637 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:52:59] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:53:24,817 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:53:24,820 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:53:24] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:53:25,528 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:53:25,596 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:53:25] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:53:39,764 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:53:39,772 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:53:39] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:53:40,072 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:53:40,086 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:53:40] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:53:54,609 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.148.194.252:5000
+2025-10-17 04:53:54,610 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-17 04:53:54,619 - werkzeug - INFO -  * Restarting with stat
+2025-10-17 04:53:55,776 - werkzeug - WARNING -  * Debugger is active!
+2025-10-17 04:53:55,795 - werkzeug - INFO -  * Debugger PIN: 138-299-556
+2025-10-17 04:53:57,448 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:53:57,451 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:53:57] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:55:36,601 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:55:36,887 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:55:36] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:55:37,548 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:55:37,573 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:55:37] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:55:38,710 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:55:38,713 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:55:38] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:55:39,046 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:55:39,049 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:55:39] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:55:42,484 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:55:42,487 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:55:42] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:55:42,808 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:55:42,818 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:55:42] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:55:50,645 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:55:50,648 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:55:50] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:55:51,179 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:55:51,183 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:55:51] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:57:48,497 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:57:48,502 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:57:48] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:57:49,922 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:57:49,926 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:57:49] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:57:50,454 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:57:50,463 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:57:50] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:58:31,271 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:58:31,273 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:58:31] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:58:31,841 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:58:31,844 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:58:31] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:58:33,778 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:58:33,780 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:58:33] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:58:35,991 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:58:35,998 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:58:35] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:58:36,561 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:58:36,572 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:58:36] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:58:47,059 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:58:47,078 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:58:47] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:58:48,228 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:58:48,703 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:58:48] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:59:06,021 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:59:06,024 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:59:06] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:59:06,652 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:59:06,658 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:59:06] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:59:09,369 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:59:09,371 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:59:09] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:59:10,099 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:59:10,102 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:59:10] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:59:15,643 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:59:15,646 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:59:15] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:59:17,446 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:59:17,449 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:59:17] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:59:17,752 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:59:17,764 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:59:17] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:59:44,196 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:59:44,199 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:59:44] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 04:59:44,863 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 04:59:44,867 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 04:59:44] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:02:28,772 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:02:28,774 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:02:28] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:02:29,038 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:02:29,041 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:02:29] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:02:32,111 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:02:32,113 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:02:32] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:02:32,392 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:02:32,394 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:02:32] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:03:34,079 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=28.6&lng=77.2
+2025-10-17 05:03:34,586 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:03:34] "GET /disaster-monitor/india HTTP/1.1" 200 -
+2025-10-17 05:03:34,819 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=28.6&lng=77.2
+2025-10-17 05:03:34,857 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:03:34] "GET /disaster-monitor/india HTTP/1.1" 200 -
+2025-10-17 05:03:35,540 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=28.6&lng=77.2
+2025-10-17 05:03:35,543 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:03:35] "GET /disaster-monitor/india HTTP/1.1" 200 -
+2025-10-17 05:03:37,642 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=28.6&lng=77.2
+2025-10-17 05:03:37,658 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:03:37] "GET /disaster-monitor/india HTTP/1.1" 200 -
+2025-10-17 05:04:56,742 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=11.7&lng=92.72
+2025-10-17 05:04:56,880 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=11.7&lng=92.72
+2025-10-17 05:04:58,426 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:04:58] "GET /disaster-monitor/Bamboo%20Flat HTTP/1.1" 200 -
+2025-10-17 05:04:58,910 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:04:58] "GET /disaster-monitor/Bamboo%20Flat HTTP/1.1" 200 -
+2025-10-17 05:05:01,445 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=11.7&lng=92.72
+2025-10-17 05:05:01,522 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:05:01] "GET /disaster-monitor/Bamboo%20Flat HTTP/1.1" 200 -
+2025-10-17 05:05:03,802 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=11.7&lng=92.72
+2025-10-17 05:05:03,806 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:05:03] "GET /disaster-monitor/Bamboo%20Flat HTTP/1.1" 200 -
+2025-10-17 05:05:05,251 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=11.7&lng=92.72
+2025-10-17 05:05:05,260 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:05:05] "GET /disaster-monitor/Bamboo%20Flat HTTP/1.1" 200 -
+2025-10-17 05:05:54,484 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:05:54,722 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:05:54] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:05:54,856 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:05:54,901 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:05:54] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:05:55,194 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:05:55,199 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:05:55] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:05:56,007 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:05:56,010 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:05:56] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:05:56,395 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:05:56,402 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:05:56] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:11:42,483 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:11:42,723 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:11:42] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:11:44,501 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:11:44,546 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:11:44] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:11:45,111 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:11:45,117 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:11:45] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:15:10,373 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:15:10,383 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:15:10] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:15:10,696 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:15:10,698 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:15:10] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:20:11,784 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:20:11,787 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:20:11] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:20:15,091 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:20:15,093 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:20:15] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:20:15,764 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:20:15,767 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:20:15] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:22:30,885 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:22:31,112 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:22:31] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:22:31,451 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:22:31,474 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:22:31] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:22:34,934 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:22:34,938 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:22:34] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:22:35,386 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:22:35,388 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:22:35] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:23:03,469 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:23:03,472 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:23:03] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:23:03,996 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:23:04,001 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:23:04] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:23:46,086 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:23:46,091 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:23:46] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:23:48,369 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:23:48,372 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:23:48] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:23:48,597 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:23:48,608 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:23:48] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:24:05,772 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:24:05,776 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:24:05] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:24:06,360 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:24:06,371 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:24:06] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:27:01,579 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:27:01,821 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:27:01] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:27:02,374 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:27:02,457 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:27:02] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:27:04,363 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:27:04,367 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:27:04] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:27:04,901 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:27:04,904 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:27:04] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:32:04,758 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:32:04,767 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:32:04] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:32:05,957 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:32:05,961 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:32:05] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:32:06,520 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:32:06,524 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:32:06] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:33:06,507 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:33:06,511 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:33:06] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:33:07,123 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:33:07,132 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:33:07] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:33:48,645 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:33:48,648 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:33:48] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:33:49,180 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:33:49,182 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:33:49] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:34:00,324 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.148.194.252:5000
+2025-10-17 05:34:00,324 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-17 05:34:00,327 - werkzeug - INFO -  * Restarting with stat
+2025-10-17 05:34:01,363 - werkzeug - WARNING -  * Debugger is active!
+2025-10-17 05:34:01,382 - werkzeug - INFO -  * Debugger PIN: 138-299-556
+2025-10-17 05:34:25,222 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:34:25,475 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:34:25] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:34:25,885 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:34:25,906 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:34:25] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:34:27,116 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:34:27,124 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:34:27] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:34:27,405 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:34:27,409 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:34:27] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:36:15,476 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:36:15,480 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:36:15] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:36:15,769 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:36:15,786 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:36:15] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:41:16,820 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:41:16,852 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:41:16] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:43:27,498 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:43:27,501 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:43:27] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:43:27,731 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:43:27,733 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:43:27] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:48:29,146 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:48:29,412 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:48:29] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:50:00,374 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:50:00,753 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:50:00] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:50:02,894 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:50:02,934 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:50:02] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:50:03,484 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 05:50:03,488 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:50:03] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 05:53:56,223 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:53:56,294 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:53:56] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:53:57,945 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:53:57,997 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:53:57] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 05:59:06,702 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 05:59:06,938 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 05:59:06] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 06:00:27,352 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 06:00:27,392 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:00:27] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 06:00:58,447 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 06:00:58,450 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:00:58] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 06:05:59,732 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 06:05:59,735 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:05:59] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 06:10:59,111 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 06:10:59,928 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:10:59] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 06:11:21,577 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 06:11:21,601 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:11:21] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 06:16:22,740 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 06:16:22,744 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:16:22] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 06:17:00,041 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 06:17:00,288 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:17:00] "GET /disaster-monitor/Pune HTTP/1.1" 200 -
+2025-10-17 06:17:01,170 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 06:17:01,190 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:17:01] "GET /disaster-monitor/Pune HTTP/1.1" 200 -
+2025-10-17 06:18:07,760 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-17 06:18:07,763 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:18:07] "GET /disaster-monitor/Pune HTTP/1.1" 200 -
+2025-10-17 06:19:56,387 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 06:19:56,392 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:19:56] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 06:20:52,342 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 06:20:52,347 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:20:52] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 06:21:06,211 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 06:21:06,516 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:21:06] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 06:21:07,124 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 06:21:07,144 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:21:07] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 06:21:08,379 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 06:21:08,381 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:21:08] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 06:21:24,262 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 06:21:24,263 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:21:24] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 06:21:25,611 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 06:21:25,613 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 06:21:25] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 21:47:26,512 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.148.194.252:5000
+2025-10-17 21:47:26,514 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-17 21:47:26,582 - werkzeug - INFO -  * Restarting with stat
+2025-10-17 21:47:29,196 - werkzeug - WARNING -  * Debugger is active!
+2025-10-17 21:47:29,232 - werkzeug - INFO -  * Debugger PIN: 138-299-556
+2025-10-17 21:47:57,096 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 21:47:57,406 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 21:47:57] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 21:47:58,021 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 21:47:58,038 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 21:47:58] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 21:47:58,760 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 21:47:58,763 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 21:47:58] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 22:29:23,845 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 22:29:24,066 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 22:29:24,934 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 22:29:24] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 22:29:24,941 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 22:29:24] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 22:29:26,401 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 22:29:26,456 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 22:29:26] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 22:30:35,644 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 22:30:35,647 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 22:30:35] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 22:30:38,610 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 22:30:38,613 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 22:30:38] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 23:21:28,404 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 23:21:28,687 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:21:28] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 23:21:30,347 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 23:21:34,583 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:21:34] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 23:22:46,843 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 23:22:46,850 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:22:46] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 23:22:50,243 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 23:22:50,252 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:22:50] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 23:22:51,502 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=16.56&lng=-93.97
+2025-10-17 23:22:51,516 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:22:51] "GET /disaster-monitor/Alaska HTTP/1.1" 200 -
+2025-10-17 23:23:16,622 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 23:23:16,866 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:23:16] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 23:23:17,960 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 23:23:17,996 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:23:17] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 23:24:24,485 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 23:24:24,492 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:24:24] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 23:24:25,845 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 23:24:25,847 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:24:25] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 23:24:27,078 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 23:24:27,081 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:24:27] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 23:24:29,337 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 23:24:29,340 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:24:29] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 23:24:30,529 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 23:24:30,535 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:24:30] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-17 23:24:34,580 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-17 23:24:34,582 - werkzeug - INFO - 127.0.0.1 - - [17/Oct/2025 23:24:34] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-19 01:49:15,744 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.148.194.252:5000
+2025-10-19 01:49:15,748 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-19 01:49:15,782 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 01:49:17,390 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 01:49:17,403 - werkzeug - INFO -  * Debugger PIN: 138-299-556
+2025-10-19 01:49:39,777 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-19 01:49:40,260 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 01:49:40] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-19 01:49:42,420 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=14.6&lng=120.98
+2025-10-19 01:49:42,478 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 01:49:42] "GET /disaster-monitor/Philippines HTTP/1.1" 200 -
+2025-10-19 02:21:15,970 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.148.194.252:5000
+2025-10-19 02:21:15,971 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-19 02:21:15,976 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 02:21:17,122 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 02:21:17,148 - werkzeug - INFO -  * Debugger PIN: 138-299-556
+2025-10-19 02:21:35,149 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=52.52&lng=13.4
+2025-10-19 02:21:35,865 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 02:21:35] "GET /disaster-monitor/Berlin HTTP/1.1" 200 -
+2025-10-19 02:21:36,035 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=52.52&lng=13.4
+2025-10-19 02:21:36,084 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 02:21:36] "GET /disaster-monitor/Berlin HTTP/1.1" 200 -
+2025-10-19 02:21:41,533 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=52.52&lng=13.4
+2025-10-19 02:21:41,539 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 02:21:41] "GET /disaster-monitor/Berlin HTTP/1.1" 200 -
