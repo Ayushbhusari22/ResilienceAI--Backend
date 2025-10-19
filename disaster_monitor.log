@@ -631,3 +631,49 @@
 2025-10-19 02:21:36,084 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 02:21:36] "GET /disaster-monitor/Berlin HTTP/1.1" 200 -
 2025-10-19 02:21:41,533 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=52.52&lng=13.4
 2025-10-19 02:21:41,539 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 02:21:41] "GET /disaster-monitor/Berlin HTTP/1.1" 200 -
+2025-10-19 07:36:53,586 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.148.194.252:5000
+2025-10-19 07:36:53,587 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-19 07:36:53,593 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:36:57,030 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 07:36:57,048 - werkzeug - INFO -  * Debugger PIN: 138-299-556
+2025-10-19 07:38:25,134 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:38:25] "OPTIONS /heatwave HTTP/1.1" 200 -
+2025-10-19 07:38:27,496 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:38:27] "OPTIONS /heatwave HTTP/1.1" 200 -
+2025-10-19 07:38:52,476 - werkzeug - INFO -  * Detected change in 'A:\\Storage\\Downloads\\DisasterAI-main\\Dash\\ResilienceAI\\backend\\index.py', reloading
+2025-10-19 07:38:53,066 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:38:58,494 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 07:38:58,502 - werkzeug - INFO -  * Debugger PIN: 138-299-556
+2025-10-19 07:39:08,967 - werkzeug - INFO -  * Detected change in 'A:\\Storage\\Downloads\\DisasterAI-main\\Dash\\ResilienceAI\\backend\\index.py', reloading
+2025-10-19 07:39:09,415 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:40:33,294 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.148.194.252:5000
+2025-10-19 07:40:33,295 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-19 07:40:33,298 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:40:36,873 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 07:40:36,885 - werkzeug - INFO -  * Debugger PIN: 138-299-556
+2025-10-19 07:40:56,230 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:40:56] "OPTIONS /heatwave HTTP/1.1" 200 -
+2025-10-19 07:41:00,079 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:41:00] "POST /heatwave HTTP/1.1" 200 -
+2025-10-19 07:41:16,034 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:41:16] "GET /api/historical?city=Philippines HTTP/1.1" 200 -
+2025-10-19 07:42:32,051 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-19 07:42:32,547 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:42:32] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-19 07:42:33,153 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-19 07:42:33,181 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:42:33] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-19 07:42:33,887 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=21.15&lng=79.1
+2025-10-19 07:42:33,891 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:42:33] "GET /disaster-monitor/Nagpur HTTP/1.1" 200 -
+2025-10-19 07:50:09,937 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.148.194.252:5000
+2025-10-19 07:50:09,937 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-19 07:50:09,939 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:50:12,759 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 07:50:12,765 - werkzeug - INFO -  * Debugger PIN: 138-299-556
+2025-10-19 07:50:57,075 - __main__ - ERROR - Error fetching wildfire data: 401 Client Error: Unauthorized for url: https://api.ambeedata.com/fire/latest/by-lat-lng?lat=18.53&lng=73.87
+2025-10-19 07:50:57,588 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:50:57] "GET /disaster-monitor/Pune HTTP/1.1" 200 -
+2025-10-19 07:52:27,721 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:52:27] "OPTIONS /heatwave HTTP/1.1" 200 -
+2025-10-19 07:52:30,196 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:52:30] "POST /heatwave HTTP/1.1" 200 -
+2025-10-19 07:52:33,564 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:52:33] "GET /api/historical?city=Philippines HTTP/1.1" 200 -
