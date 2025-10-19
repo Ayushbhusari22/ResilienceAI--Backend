@@ -7,7 +7,8 @@ services:
     startCommand: gunicorn disaster-monitor:app
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.7
+        value: 3.12.5
+
       - key: OPENWEATHER_API_KEY
         sync: false
       - key: WEATHERAPI_KEY
