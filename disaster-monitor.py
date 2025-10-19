@@ -26,9 +26,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # API Keys
-OPENWEATHER_API_KEY = os.environ.get("OPENWEATHER_API_KEY", "8aef68aff8e48b8c5e6865034061775a")
-WEATHERAPI_KEY = os.environ.get("WEATHERAPI_KEY", "24dda02be42748e1a93142205250304")
-AMBEE_API_KEY = os.environ.get("AMBEE_API_KEY", "a44f5ba605dc752a6768858b4614055d05513f706578caaadd84bb42c5bd8e5c")
+OPENWEATHER_API_KEY = os.environ.get("OPENWEATHER_API_KEY")
+WEATHERAPI_KEY = os.environ.get("WEATHERAPI_KEY")
+AMBEE_API_KEY = os.environ.get("AMBEE_API_KEY")
 # Cache settings
 CACHE_DIR = "cache"
 WEATHER_CACHE_TTL = 5 * 60  # 5 minutes for weather data
@@ -36,6 +36,9 @@ DISASTER_CACHE_TTL = 10 * 60  # 10 minutes for flood and wildfire data
 
 # Rich console for prettier output
 console = Console()
+
+PORT = os.environ.get('PORT', 5000)
+PRODUCTION_MODE = os.environ.get('PRODUCTION_MODE', False)
 
 
 class Cache:
@@ -851,5 +854,12 @@ def get_disaster_data(city):
         return jsonify({'error': results}), 400
     return jsonify(results)
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+if __name__ == "__main__":
+    os.makedirs('model_files', exist_ok=True)
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    
+    # For production on Render
+    if PRODUCTION_MODE:
+        app.run(host='0.0.0.0', port=int(PORT), debug=False)
+    else:
+        app.run(host='0.0.0.0', port=int(PORT), debug=True)

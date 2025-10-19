@@ -1,1 +1,15 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
 .env
+.env.local
+*.log
+*.pkl
+cache/
+.DS_Store
+.vscode/
+*.pyc
