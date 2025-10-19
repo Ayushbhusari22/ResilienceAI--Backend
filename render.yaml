@@ -2,11 +2,12 @@ services:
   - type: web
     name: disaster-monitor-api
     env: python
+    region: oregon
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn index:app
+    startCommand: gunicorn disaster-monitor:app
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.0
+        value: 3.11.7
       - key: OPENWEATHER_API_KEY
         sync: false
       - key: WEATHERAPI_KEY
